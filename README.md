@@ -12,7 +12,7 @@
 - Install Arduino IDE.
 - Download MFRC522 Library (https://www.arduinolibraries.info/libraries/mfrc522). 
 - From the IDE, go to Sketch > Include Library > Add .zip library. Choose MFRC522-x.x.x.zip
-- Upload the code 'RFIDTracker/rfidTracker.ino' to the Arduino.
+- Upload the code from'RFIDTracker/rfidTracker.ino' to the Arduino.
 
 ## Running the project
 - Run the project. type `node driver.js`
