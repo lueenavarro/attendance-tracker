@@ -4,7 +4,7 @@
 - Install Node JS and Arduino IDE
 - Install all dependencies by running `npm install`.
 - Change the COM port in driver.js
-  - Open Arduino IDE the go to Tools > Port. You can check which COM port the Arduino is connected to
+  - Open Arduino IDE then go to Tools > Port. You can check which COM port the Arduino is connected to
 - Setup the database in driver.js
 
 ## Uploading the code to Arduino
