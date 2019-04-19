@@ -12,10 +12,13 @@ var con = mysql.createConnection({
   password: "",  
   database: "attendance"  
 });`
+<br>
+Table Structure:
+![Screenshot](screenshot.png)
 - Connect the Arduino. Change the COM port in driver.js <br/>(Open Arduino IDE then go to Tools > Port. You can check which COM port the Arduino is connected to)<br />
  `const port = new SerialPort('COM7', {  
   baudRate: 9600  
-}); // change COM7 to the COM port where device is connected ` 
+}); // change COM7 to the COM port where device is connected `
 
 ## Uploading the code to Arduino
 (since the code is already uploaded to the device, you may skip this part)
