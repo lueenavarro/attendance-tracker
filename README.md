@@ -28,3 +28,4 @@ Table Structure<br>
 
 ## Running the project
 - Run the project. type `node driver.js`. If everything goes smoothly, each RFID UID tapped to the device is automatically uploaded to the database with corresponding timestamp.<br>
+![sample](screenshots/sample.jpg)
