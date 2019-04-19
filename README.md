@@ -30,6 +30,6 @@ Table Structure<br>
 - Upload the code from'RFIDTracker/rfidTracker.ino' to the Arduino.
 
 ## Running the project
-- Run the project. type `node driver.js`. If everything goes smoothly, the UID of each RFID tapped to the device is automatically uploaded to the database with corresponding timestamp.<br><br>
+- Type `node driver.js`. If everything goes smoothly, the UID of each RFID tapped to the device is automatically uploaded to the database with corresponding timestamp.<br><br>
 Sample<br>
 ![sample](screenshots/sample.jpg)
