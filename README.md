@@ -26,4 +26,4 @@ var con = mysql.createConnection({
 - Upload the code from'RFIDTracker/rfidTracker.ino' to the Arduino.
 
 ## Running the project
-- Run the project. type `node driver.js`
+- Run the project. type `node driver.js`. If everything goes smoothly, each RFID UID tapped to the device is automatically uploaded to the database with corresponding timestamp.
