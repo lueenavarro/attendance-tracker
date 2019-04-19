@@ -6,7 +6,7 @@
 - Change the COM port in driver.js (Open Arduino IDE then go to Tools > Port. You can check which COM port the Arduino is connected to)
  `const port = new SerialPort('COM7', {
   baudRate: 9600
-}); ` 
+}); // change COM7 to the COM port where device is connected ` 
 
 - Setup the database in driver.js
 
