@@ -1,0 +1,15 @@
+{
+  "name": "attendance-tracker",
+  "version": "1.0.0",
+  "description": "This driver will read data from the serial port and upload it to the database.",
+  "main": "driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louie I. Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "serialport": "^7.1.4"
+  }
+}
