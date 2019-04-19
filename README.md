@@ -11,10 +11,9 @@ var con = mysql.createConnection({
   user: "root",  
   password: "",  
   database: "attendance"  
-});`
-<br>
-Table Structure:<br>
-[table structure](screenshots/capture.jpg)<br>
+});`<br>
+Table Structure<br>
+![screenshot](screenshots/capture.jpg)<br>
 - Connect the Arduino. Change the COM port in driver.js <br/>(Open Arduino IDE then go to Tools > Port. You can check which COM port the Arduino is connected to)<br />
  `const port = new SerialPort('COM7', {  
   baudRate: 9600  
@@ -28,4 +27,4 @@ Table Structure:<br>
 - Upload the code from'RFIDTracker/rfidTracker.ino' to the Arduino.
 
 ## Running the project
-- Run the project. type `node driver.js`. If everything goes smoothly, each RFID UID tapped to the device is automatically uploaded to the database with corresponding timestamp.
+- Run the project. type `node driver.js`. If everything goes smoothly, each RFID UID tapped to the device is automatically uploaded to the database with corresponding timestamp.<br>
